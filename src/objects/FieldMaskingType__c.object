@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to configure the data format for fields to be masked based on field data type.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Masking_Format_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 10</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 1</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 6</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_7__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 7</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_8__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 8</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Masking_Format_9__c</fullName>
+        <externalId>false</externalId>
+        <label>Format 9</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>FieldMaskingType</label>
+    <visibility>Public</visibility>
+</CustomObject>

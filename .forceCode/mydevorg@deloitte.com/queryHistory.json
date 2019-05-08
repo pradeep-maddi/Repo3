@@ -1,0 +1,6 @@
+{
+    "queries": [
+        "Select Name from Account",
+        "Select Id from Account"
+    ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to configure the list of fields and child objects to be masked.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Field_Api_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Field Api Name To Mask</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Object_Api_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Object Api Name To Mask</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Object_Api_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Object Api Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Relationship_Field_To_Parent__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Field To Parent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>MaskObjectData</label>
+    <visibility>Public</visibility>
+</CustomObject>

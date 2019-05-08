@@ -1,0 +1,48 @@
+<apex:page showHeader="false" sidebar="false">
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <apex:stylesheet value="{!URLFOR($Resource.SLDS0121,'assets/styles/salesforce-lightning-design-system-vf.min.css')}"/>
+    <apex:includescript value="{!URLFOR($Resource.Svg4everybody,'svg4everybody-master/lib
+/svg4everybody.js')}"/>
+
+    <script>  
+        svg4everybody();
+    </script>
+
+
+    <div class="slds">
+       
+        <h1>  Bread Crumbs </h1><br/>
+        <nav role="navigation">
+          <p id="bread-crumb-label" class="slds-assistive-text">You are here:</p>
+          <ol class="slds-breadcrumb slds-list--horizontal" aria-labelledby="bread-crumb-label">
+            <li class="slds-list__item slds-text-heading--label"><a href="#">Parent Entity</a></li>
+            <li class="slds-list__item slds-text-heading--label"><a href="#">Parent Record Name</a></li>
+          </ol>
+        </nav> 
+        
+         <br/><h1>  Badges  </h1><br/>
+     
+        <span class="slds-badge">Label</span>
+        <span class="slds-badge slds-theme--default">Label</span>
+        <span class="slds-badge slds-theme--shade">Label</span>
+        <span class="slds-badge slds-theme--inverse">Label</span>
+        
+        <br/><br/><h1>  Buttons </h1><br/>
+        
+        <button class="slds-button">Button</button>
+        <button class="slds-button slds-button--neutral">Button neutral</button><a href="#" class="slds-button slds-button--neutral">Anchor Button Neutral</a>
+        <button class="slds-button slds-button--neutral" disabled="">Disabled</button>
+        <button class="slds-button slds-button--neutral slds-button--small">Button Small</button>
+        
+        <button class="slds-button slds-button--neutral">
+          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--left">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#download"></use>
+          </svg>Download</button>
+        <button class="slds-button slds-button--neutral">Create
+          <svg aria-hidden="true" class="slds-button__icon slds-button__icon--right">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+          </svg>
+        </button>
+    </div>  
+   </html> 
+</apex:page>
