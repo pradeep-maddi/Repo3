@@ -4,6 +4,7 @@ public class AccountProcessor{
     public static void countContacts(List<Id> lstAccIds)
     {
         System.debug('11111'); 
+         System.debug('222222'); 
         List<Account> lstAccountsToUpdate = new List<Account>();
         set<Id> setAcctIds = new set<Id>(lstAccIds);
         System.debug('222'); 
