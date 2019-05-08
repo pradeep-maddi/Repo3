@@ -3,7 +3,7 @@ public class AccountProcessor{
     @future 
     public static void countContacts(List<Id> lstAccIds)
     {
-        System.debug('111'); 
+        System.debug('11111'); 
         List<Account> lstAccountsToUpdate = new List<Account>();
         set<Id> setAcctIds = new set<Id>(lstAccIds);
         System.debug('222'); 
